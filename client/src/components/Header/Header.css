@@ -1,0 +1,85 @@
+ul {
+  display: flex;
+  background-color: grey;
+  padding-top: 0px;
+}
+#h {
+  display: block;
+  color: rgb(88, 86, 82);
+  background-color: rgb(177, 176, 176);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+li {
+  list-style: none;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+#SignIn {
+  border-radius: 5px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 400 !important;
+  background-color: rgb(110, 235, 85);
+  color: #fff;
+  padding: 13px 40px;
+  margin-right: 20px;
+  text-align: center;
+  display: inline-block !important;
+  text-decoration: none;
+  border: 0px;
+  width: max-content;
+  cursor: pointer;
+  transition: all 0.3s 0s ease-in-out;
+}
+
+#SignUp {
+  border-radius: 5px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 400 !important;
+  background-color: rgb(206, 100, 24);
+  color: #fff;
+  padding: 13px 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: inline-block !important;
+  text-decoration: none;
+  border: 0px;
+  width: max-content;
+  cursor: pointer;
+  transition: all 0.3s 0s ease-in-out;
+}
+
+#SignUp:hover {
+  transform: scale(1.04, 1);
+  background-color: rgb(216, 10, 27);
+  text-decoration: none;
+}
+
+#SignIn:hover {
+  transform: scale(1.04, 1);
+  background-color: rgb(134, 216, 10);
+  text-decoration: none;
+}
+
+#h:hover {
+  color: white;
+}
+
+#logo {
+  font-size: 37px;
+  font-family: Times, "Times New Roman", serif;
+  margin: auto;
+}
+
+#We {
+  color: Red;
+}
