@@ -1,0 +1,16 @@
+.Footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(100, 95, 95, 0.952);
+}
+section{
+    width: 25%;
+    height: 100%;
+    line-height: 100%;
+    font-size: 30px;
+    display: inline-block;
+}
+ul{
+    font-weight: 50px;
+
+}
