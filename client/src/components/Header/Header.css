@@ -1,85 +1,165 @@
 ul {
-  display: flex;
-  background-color: grey;
-  padding-top: 0px;
-}
-#h {
-  display: block;
-  color: rgb(88, 86, 82);
-  background-color: rgb(177, 176, 176);
-  font-family: Georgia, "Times New Roman", Times, serif;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 0px;
-  border-radius: 10px;
-}
-li {
-  list-style: none;
-  margin-left: auto;
-  margin-top: 20px;
+    display: flex;
+    background-color: grey;
+    padding-top: 0px;
+  }
+  #h {
+    display: block;
+    color: rgb(88, 86, 82);
+    background-color: rgb(177, 176, 176);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+  
+  #SignIn {
+    border-radius: 5px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: rgb(110, 235, 85);
+    color: #fff;
+    padding: 13px 40px;
+    margin-right: 20px;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border: 0px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+  }
+  
+  #SignUp {
+    border-radius: 5px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: rgb(206, 100, 24);
+    color: #fff;
+    padding: 13px 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border: 0px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+  }
+  
+  #SignUp:hover {
+    transform: scale(1.04, 1);
+    background-color: rgb(216, 10, 27);
+    text-decoration: none;
+  }
+  
+  #SignIn:hover {
+    transform: scale(1.04, 1);
+    background-color: rgb(134, 216, 10);
+    text-decoration: none;
+  }
+  
+  #h:hover {
+    color: white;
+  }
+  
+  #logo {
+    font-size: 67px;
+    font-family: Times, "Times New Roman", serif;
+    margin: auto;
+  }
+  
+  #We {
+    color: Red;
+
+  }
+
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-#SignIn {
-  border-radius: 5px;
-  font-size: 12px;
-  letter-spacing: 2px;
-  font-weight: 400 !important;
-  background-color: rgb(110, 235, 85);
-  color: #fff;
-  padding: 13px 40px;
-  margin-right: 20px;
-  text-align: center;
-  display: inline-block !important;
-  text-decoration: none;
-  border: 0px;
-  width: max-content;
+body{
+    font-family: Tahoma, Arial;
+}
+
+.sliderimg{
+  width: 453px;
+  height: 200px;
+  object-fit: cover;
   cursor: pointer;
-  transition: all 0.3s 0s ease-in-out;
 }
 
-#SignUp {
-  border-radius: 5px;
-  font-size: 12px;
-  letter-spacing: 2px;
-  font-weight: 400 !important;
-  background-color: rgb(206, 100, 24);
-  color: #fff;
-  padding: 13px 40px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-  display: inline-block !important;
-  text-decoration: none;
-  border: 0px;
-  width: max-content;
-  cursor: pointer;
-  transition: all 0.3s 0s ease-in-out;
-}
 
-#SignUp:hover {
-  transform: scale(1.04, 1);
-  background-color: rgb(216, 10, 27);
-  text-decoration: none;
-}
 
-#SignIn:hover {
-  transform: scale(1.04, 1);
-  background-color: rgb(134, 216, 10);
-  text-decoration: none;
-}
 
-#h:hover {
-  color: white;
+h1{
+  height: 90px;
+  position: absolute;
+  top: 170px;
+  left: 31%;
+  color: wheat;
 }
-
-#logo {
-  font-size: 37px;
-  font-family: Times, "Times New Roman", serif;
-  margin: auto;
+h1 span{
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  animation: bounce .3s ease infinite alternate;
+  font-family: 'Titan One' cursive;
+  font-size: 30px;
+  color: red;
+  text-shadow: 0 1px yellow,
+  0 2px yellow,
+  0 3px yellow,
+  0 4px yellow,
+  0 5px yellow,
+  0 6px 0 transparent,
+  0 7px 0 transparent,
+  0 8px 0 transparent,
+  0 9px 0 transparent,
+  0 10px 10px black;
+ 
 }
-
-#We {
-  color: Red;
+h1 span:nth-child(1){animation-delay: .1s;}
+h1 span:nth-child(2){animation-delay: .2s;}
+h1 span:nth-child(3){animation-delay: .3s;}
+h1 span:nth-child(4){animation-delay: .4s;}
+h1 span:nth-child(5){animation-delay: .5s;}
+h1 span:nth-child(6){animation-delay: .6s;}
+h1 span:nth-child(7){animation-delay: .7s;}
+h1 span:nth-child(8){animation-delay: .8s;}
+h1 span:nth-child(9){animation-delay: .10s;}
+h1 span:nth-child(10){animation-delay: .10s;}
+h1 span:nth-child(11){animation-delay: .11s;}
+h1 span:nth-child(12){animation-delay: .12s;}
+h1 span:nth-child(13){animation-delay: .13s;}
+h1 span:nth-child(14){animation-delay: .14s;}
+h1 span:nth-child(15){animation-delay: .15s;}
+h1 span:nth-child(16){animation-delay: .15s;}
+h1 span:nth-child(17){animation-delay: .15s;}
+h1 span:nth-child(18){animation-delay: .16s;}
+@keyframes bounce {
+  100%{
+      top: -20px;
+      text-shadow: 0 1px 0 white,
+      0 2px 0 white,
+      0 3px 0 white,
+      0 4px 0 white,
+      0 5px 0 white,
+      0 6px 0 white,
+      0 50px 25px black;
+  }
 }
