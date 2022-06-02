@@ -1,0 +1,274 @@
+.Groups {
+  display: flex;
+  padding-top: 10px;
+  margin-right: 15px;
+}
+
+li {
+  list-style: none;
+  margin-left: auto;
+}
+
+#Code {
+  display: block;
+}
+
+#Fgb {
+  position: absolute;
+  top: 28%;
+  left: 23%;
+  background-color: rgb(87, 229, 16);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#Fgi {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin-right: 70px;
+  margin-top: 10px;
+}
+
+#Fg {
+  position: absolute;
+  top: 27%;
+  right: 84%;
+  background-color: rgb(181, 183, 186);
+  opacity: 0.9;
+  border-radius: 10px;
+  margin-left: 47%;
+  margin-top: 5px;
+  font-size: 20px;
+  font-family: "Gabriela";
+}
+
+#Anime {
+  display: block;
+}
+
+#Sgb {
+  position: absolute;
+  top: 28%;
+  left: 55%;
+  background-color: rgb(87, 229, 16);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#Sgi {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin-right: 70px;
+  margin-top: 10px;
+}
+
+#Sg {
+  position: absolute;
+  top: 27.2%;
+  left: -8%;
+  background-color: rgb(181, 183, 186);
+  opacity: 0.7;
+  border-radius: 10px;
+  margin-left: 47%;
+  margin-top: 5px;
+  font-size: 20px;
+  font-family: "Gabriela";
+}
+
+#Movie {
+  display: block;
+}
+
+#Tgb {
+  position: absolute;
+  top: 28%;
+  left: 86.85%;
+  background-color: rgb(87, 229, 16);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#Tgi {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin-right: 70px;
+  margin-top: 10px;
+}
+
+#Tg {
+  position: absolute;
+  top: 27%;
+  right: 20%;
+  background-color: rgb(181, 183, 186);
+  opacity: 0.7;
+  border-radius: 10px;
+  margin-left: 47%;
+  margin-top: 5px;
+  font-size: 20px;
+  font-family: "Gabriela";
+}
+
+#Sp1 {
+  color: rgb(70, 60, 7);
+}
+#Sp2 {
+  color: rgb(70, 60, 7);
+}
+
+#Sp3 {
+  color: rgb(70, 60, 7);
+}
+
+#Sp12 {
+  color: rgb(70, 60, 7);
+}
+
+#Sp22 {
+  color: rgb(70, 60, 7);
+}
+
+#Sp32 {
+  color: rgb(70, 60, 7);
+}
+
+#Foot {
+  display: block;
+}
+
+#Fgb2 {
+  position: absolute;
+  top: 66.5%;
+  left: 23%;
+  background-color: rgb(87, 229, 16);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#Fgi2 {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin-right: 70px;
+  margin-top: 10px;
+}
+
+#Fg2 {
+  position: absolute;
+  top: 27%;
+  right: 84%;
+  background-color: rgb(181, 183, 186);
+  opacity: 0.9;
+  border-radius: 10px;
+  margin-left: 47%;
+  margin-top: 5px;
+  font-size: 20px;
+  font-family: "Gabriela";
+}
+
+#Tennis {
+  display: block;
+}
+
+#Sgb2 {
+  position: absolute;
+  top: 66.5%;
+  left: 55%;
+  background-color: rgb(87, 229, 16);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#Sgi2 {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin-right: 70px;
+  margin-top: 10px;
+}
+
+#Conferences {
+  display: block;
+}
+
+#Tgb2 {
+  position: absolute;
+  top: 66.5%;
+  left: 86.85%;
+  background-color: rgb(87, 229, 16);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#Tgi2 {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin-right: 70px;
+  margin-top: 10px;
+}
+
+#Tg2 {
+  position: absolute;
+  top: 65.5%;
+  right: 20.39%;
+  background-color: rgb(181, 183, 186);
+  opacity: 0.7;
+  border-radius: 10px;
+  margin-left: 47%;
+  margin-top: 5px;
+  font-size: 20px;
+  font-family: "Gabriela";
+}
+
+#Sg2 {
+  position: absolute;
+  top: 65.5%;
+  left: -8%;
+  background-color: rgb(181, 183, 186);
+  opacity: 0.7;
+  border-radius: 10px;
+  margin-left: 47%;
+  margin-top: 5px;
+  font-size: 20px;
+  font-family: "Gabriela";
+}
+
+#Fg2 {
+  position: absolute;
+  top: 65.5%;
+  left: -40%;
+  background-color: rgb(181, 183, 186);
+  opacity: 0.7;
+  border-radius: 10px;
+  margin-left: 47%;
+  margin-top: 5px;
+  font-size: 20px;
+  font-family: "Gabriela";
+}
