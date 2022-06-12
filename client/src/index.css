@@ -1,1 +1,1295 @@
 
+/* Header */
+.Header ul {
+    display: flex;
+    background-color: grey;
+    padding-top: 0px;
+  }
+  .Header #h {
+    display: block;
+    color: rgb(88, 86, 82);
+    background-color: rgb(177, 176, 176);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  .Header li {
+    list-style: none;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+  
+  .Header #SignIn {
+    border-radius: 5px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: rgb(110, 235, 85);
+    color: #fff;
+    padding: 13px 40px;
+    margin-right: 20px;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border: 0px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+  }
+  
+  .Header #SignUp {
+    border-radius: 5px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: rgb(206, 100, 24);
+    color: #fff;
+    padding: 13px 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border: 0px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+  }
+  
+  .Header #SignUp:hover {
+    transform: scale(1.04, 1);
+    background-color: rgb(216, 10, 27);
+    text-decoration: none;
+  }
+  
+  .Header #SignIn:hover {
+    transform: scale(1.04, 1);
+    background-color: rgb(134, 216, 10);
+    text-decoration: none;
+  }
+  
+  .Header #h:hover {
+    color: white;
+  }
+  
+  .Header #logo {
+    font-size: 67px;
+    font-family: Times, "Times New Roman", serif;
+    margin: auto;
+  }
+  
+  .Header #We {
+    color: Red;
+
+  }
+
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Header nav{
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Header */
+
+/* Body -------------------------*/
+
+.Body{
+    margin-top: 20px;
+    
+}
+.Body .imageC{
+    padding-left: 60px;
+    column-count: 3;
+}
+
+.Body .cc{
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+    align-items: center;
+    margin-left: 50px;
+    
+    
+}
+.Body .cc img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+.Body #srow{
+  margin-left: 260px;
+}
+.Body button{
+    background-color: grey;
+    color: white;
+    width: 95%;
+    height: 40px;
+    border-radius: 10px;
+    line-height: 100%;
+    color: burlywood;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+.Body #w{
+    background-color: green;
+}
+.Body button:hover{
+    background-color:rgba(5, 41, 5, 0.829);
+}
+
+.Body h2{
+    color: red;
+    position: relative;
+    left: 40%;
+    padding-top: 150px;
+
+}
+
+.Body p{
+    color:black;
+    position: relative;
+    left: 12%;
+    font-size: 20px;   
+}
+
+
+/* Body*/
+
+
+
+/* Footer*/
+.Footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(100, 95, 95, 0.952);
+    margin-top: 50px; 
+}
+.Footer section{
+    width: 25%;
+    height: 100%;
+    line-height: 100%;
+    font-size: 30px;
+    display: inline-block;
+    padding-left: 10px;
+}
+.Footer ul{
+    font-weight: 50px;
+    list-style: none;
+}
+.Footer ul li{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+  width: 80px;
+  border-radius: 40px;
+
+}
+.Footer ul li:hover{
+  
+  cursor: pointer;
+}
+
+.Footer #titl{
+    color: wheat;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.Footer .connect {
+    height: 200px;
+    width: 25%;
+    background-color: rgba(100, 95, 95, 0.952);
+    position:relative;
+    left: 70%;
+    top: -200px;
+    text-align: center;
+}
+.Footer .connect p{
+    color: wheat;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.Footer .connect img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.Footer img{
+    cursor: pointer;
+}
+
+                     
+/*Footer*/
+
+/*Events*/
+.Events{
+  padding-top: 150px;
+}
+.Events .Cinema{
+  width: 90%;
+  height: 320px;
+  margin-left: 120px;
+  background-color: wheat;
+  border-radius: 20px;
+
+  
+
+}
+.Events .Cinema .Images{
+  display: inline-flex;
+}
+.Events img{
+  width:200px;
+  height: 150px;
+  margin-left: 20px;
+  border-radius: 10px;
+  
+}
+.Events .desc{
+  color: #333;
+  font-size: 10px;
+  height: 80px;
+  width: 200px;
+  margin-left: 20px;
+  display: inline-flex;
+
+}
+.Events a{
+  background-color: gray;
+  width: 40px;
+  height: 15px;
+  cursor: pointer;
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+.Events #title{
+  font-weight: bolder;
+  color: purple;
+  font-size: 30px;
+  text-align: center;
+}
+
+.Events .Sports .Images{
+  display: inline-flex;
+}
+
+.Events .Politics .Images{
+  display: inline-flex;
+}
+.Events h2{
+  font-size: 20px;
+}
+.Events .Sports, .Events .Politics {
+  width: 90%;
+  height: 310px;
+  margin-left: 120px;
+  background-color: wheat;
+  border-radius: 20px;
+}
+
+.Events .w3-teal{
+  position: fixed;
+
+}
+
+.Events #mySidebar{
+  width: 130px;
+  background-color: gray;
+}
+
+.Events #date{
+  color: rgb(60, 56, 56);
+  font-size: 10px;
+  text-align: center;
+}
+
+.Events #group{
+  color: #000;
+  margin-top: -30px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.Events #gg{
+  text-decoration: none;
+  color: blue;
+  background-color: wheat;
+}
+
+/*Events*/
+
+
+
+/*Event*/
+* {
+  box-sizing: border-box;
+}
+
+
+.Event h1 {
+  color: #333;
+  font-family: tahoma;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 550px;
+  padding-top: 15px;
+  position: fixed;
+
+}
+
+.Event h1 span {
+  font-size: 40px;
+  margin-left: 40px;
+
+}
+
+.Event .message {
+  color: rgb(67, 192, 134);
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  padding-left: 0.5rem;
+  top: 0.2rem;
+  left: 280px;
+  animation: openclose 5s ease-in-out infinite;
+  padding-top: 13px;
+  
+}
+
+.Event .word1, .word2, .word3 {
+  font-family: tahoma;
+
+}
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 230px;
+  }
+  30% {
+    top: 0.2rem;
+    width: 230px;
+  }
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+  38% {
+    top: -4.5rem;
+    
+  }
+  48% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  62% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  66% {
+    top: -4.5rem;
+    width: 0;
+    text-indent: 0;
+  }
+  71% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  86% {
+    top: -9rem;
+    width: 285px;
+  }
+  95% {
+    top: -9rem;
+    width: 285px;
+  }
+  98% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
+}
+
+.Event .ButtContainer{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: flex;
+  padding-top: 10px;
+  position: fixed;
+}
+.Event #SignIn {
+  border-radius: 5px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 400 !important;
+  background-color: rgb(110, 235, 85);
+  color: #fff;
+  padding: 13px 40px;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block !important;
+  text-decoration: none;
+  border: 0px;
+  width: max-content;
+  cursor: pointer;
+  transition: all 0.3s 0s ease-in-out;
+  height: 50px;
+}
+
+.Event #SignUp {
+  border-radius: 5px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 400 !important;
+  background-color: rgb(206, 100, 24);
+  color: #fff;
+  padding: 13px 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: inline-block !important;
+  text-decoration: none;
+  border: 0px;
+  width: max-content;
+  cursor: pointer;
+  transition: all 0.3s 0s ease-in-out;
+  height: 50px;
+}
+.Event input[type=text] {
+ 
+  border: none;
+  font-size: 17px;
+  height:50px ;
+  border-radius: 5px;
+  
+}
+.Event #SignUp:hover {
+  transform: scale(1.04, 1);
+  background-color: rgb(216, 10, 27);
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.Event #SignIn:hover {
+  transform: scale(1.04, 1);
+  background-color: rgb(134, 216, 10);
+  text-decoration: none;
+  border-radius: 20px;
+}
+.Events .header{
+  background-color: #fff;
+}
+/*Event*/
+
+/*Community*/
+.Communities nav{
+  display:inline-flex;
+  padding-top: 10px;
+  width: 100%;
+}
+.Communities nav img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: -5px;
+}
+
+.Communities nav input[type="search"]{
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 8px;
+  border-style: ridge;
+  text-align: center;
+}
+
+.Communities nav div{
+  padding-left: 40%;
+  padding-top:  10px; ;
+}
+.Communities nav div a{
+  height: 40px;
+  text-align: center;
+  color: blue;
+  cursor: pointer;
+}
+
+.Communities nav div button{
+  background-color: #fff;
+  color: #333;
+  font-size: 10px;
+  margin-left: 30px;
+  border: none;
+  cursor: pointer;
+}
+.Communities nav h1{
+  color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 5px;
+  margin-left: 20px;
+}
+
+.Communities nav h2{
+  color:gray;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 5px;
+
+}
+.Communities header button{
+  width: 90px;
+  height: 40px;
+  border: none;
+  margin-left: 120px;
+  padding: 10px;
+  margin-top: 50px;
+  color: #333;
+}
+.Communities header p{
+  color: rgb(110, 93, 93);
+  margin-left: 170px;
+  margin-top: 20px;
+}
+.Communities header button:active{
+  border-bottom: solid skyblue;
+}
+.Communities .content{
+  margin-left: 180px;
+  width: 50%;
+  
+}
+
+.Communities .content #one{
+  display: flex;
+  width: 90%;
+  margin-top: 30px;
+  background-color:azure;
+  padding: 18px;
+}
+
+.Communities .content img{
+  width: 300px;
+  height: 100px;
+  border-radius: 6px;
+}
+
+.Communities .content #one p{
+  margin-left: 10px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+}
+.Communities .content #one h4{
+  color: #333;
+}
+.Communities .content #one a{
+  color: blue;
+  cursor: pointer;
+} 
+
+.Communities .above{
+  background: fixed;
+}
+/*Community*/
+
+
+/*Ci_E*/
+.Ci_E nav{
+  display:inline-flex;
+  padding-top: 10px;
+  width: 100%;
+}
+.Ci_E nav img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: -5px;
+}
+
+.Ci_E nav input[type="search"]{
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 8px;
+  border-style: ridge;
+  text-align: center;
+}
+
+.Ci_E nav div{
+  padding-left: 40%;
+  padding-top:  10px; ;
+}
+.Ci_E nav div a{
+  height: 40px;
+  text-align: center;
+  color: blue;
+  cursor: pointer;
+}
+
+.Ci_E nav div button{
+  background-color: #fff;
+  color: #333;
+  font-size: 10px;
+  margin-left: 30px;
+  border: none;
+  cursor: pointer;
+}
+.Ci_E nav h1{
+  color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 5px;
+
+
+}
+
+.Ci_E nav h2{
+  color:gray;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 5px;
+
+}
+
+.Ci_E header{
+
+}
+.Ci_E header #date{
+  color: #333;
+  font-size: 15px;
+  margin-left: 80px;
+  padding-top: 6px;
+  font-weight: bold;
+}
+
+.Ci_E header #title {
+  
+  margin-left: 80px;
+  padding-top: 6px;
+  font-weight: bolder;
+  font-size: 45px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+.Ci_E header section{
+  display: inline-flex;
+  margin-top: 10px;
+  margin-left: 80px;;
+}
+.Ci_E header img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.Ci_E header section #host{
+  color: gray;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.Ci_E .desc{
+  width: 40%;
+  margin-left: 80px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Ci_E .desc img{
+  width: 500px;
+  height: 250px;
+  padding-top: 20px;
+}
+.Ci_E .desc ul li{
+  margin-left: 30px;
+}
+
+
+.Ci_E .extras a{
+  margin-left: 80%;
+  cursor: pointer;
+  color: blue;
+}
+.Ci_E .extras section{
+  display: flex;
+}
+.Ci_E .extras section section{
+  display: block;
+  margin-left: 20px;
+  text-align: center;
+}
+.Ci_E .extras section img{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  
+}
+.Ci_E .extras section section p{
+  font-weight: bolder;
+}
+.Ci_E .extras section section i{
+  color: gray;
+  font-size: 15px;
+}
+
+.Ci_E .evv {
+  display: flex;
+  background-color:silver;
+}
+
+.Ci_E .evv .infos{
+  width: 40%;
+  margin-left: 80px;
+}
+.Ci_E .evv .infos #one{
+  display: flex;
+  margin-left: 40px;
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 80px;
+  border-radius: 15px;
+  text-align: center;
+}
+.Ci_E .evv .infos #one img{
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.Ci_E .evv .infos #one b{
+  margin-top: 40px;
+  margin-left:6px ;
+
+}
+.Ci_E .evv .infos #one b a{
+  cursor: pointer;
+}
+.Ci_E .evv .infos #one i{
+  color: gray;
+}
+
+.Ci_E .evv .infos #tow {
+  display: block;
+  background-color: #fff;
+  margin-left: 40px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.Ci_E .evv .infos #tow section{
+  margin-top: 10px;
+  padding: 16px;
+ 
+}
+.Ci_E .evv .infos #tow section img{
+  width: 40px;
+  height: 40px;
+}
+.Ci_E .evv .infos #tow section p{
+  color: gray;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+  margin-top: -30px;
+}
+.Ci_E .evv .infos #three{
+  display: block;
+  background-color: #fff;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 100px;
+  padding-top: 20px;
+
+}
+.Ci_E .evv .infos #share {
+  width: 100px;
+  height: 50px;
+  background-color: skyblue;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.Ci_E .evv .infos #attend{
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.Ci_E .evv .infos #share:hover{
+  background-color: #fff;
+}
+.Ci_E .evv .infos #attend:hover{
+  background-color: #fff;
+}
+
+.Ci_E .evv .infos #four{
+  display: block;
+  background-color: #fff;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 100px;
+  padding-top: 20px;
+  
+
+}
+.Ci_E .evv .infos #four a{
+  text-decoration: none;
+  font-style: italic;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+
+/*Ci_E*/
+
+/*RandomG*/
+
+.RandomG #main-nav{
+  display:inline-flex;
+  padding-top: 10px;
+  width: 100%;
+  background-color: #fff;
+}
+.RandomG nav img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: -5px;
+}
+
+.RandomG nav input[type="search"]{
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 8px;
+  border-style: ridge;
+  text-align: center;
+  width: 300px;
+}
+
+.RandomG nav div{
+  padding-left: 40%;
+  padding-top:  10px; ;
+}
+.RandomG nav div a{
+  height: 40px;
+  text-align: center;
+  color: blue;
+  cursor: pointer;
+}
+
+.RandomG nav div button{
+  background-color: #fff;
+  color: #333;
+  font-size: 10px;
+  margin-left: 30px;
+  border: none;
+  cursor: pointer;
+}
+.RandomG nav h1{
+  color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 5px;
+
+
+}
+
+.RandomG nav h2{
+  color:gray;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 5px;
+
+}
+
+.RandomG .details {
+  column-count: 2;
+}
+
+.RandomG .details #one {
+  width: 90%;
+  height: 400px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.RandomG .details #one img{
+  width: 90%;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.RandomG .details #tow{
+  width: 90%;
+  height: 400px;
+  margin-left: 100px;
+  padding-top: 60px;
+}
+.RandomG .details #tow img{
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+  
+}
+.RandomG .details #tow h1{
+  font-weight: bolder;
+  font-size: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.RandomG .details #tow section{
+  display: flex;
+}
+.RandomG .details #tow section p{
+  margin: 18px;
+  color: #333;
+  font-weight: bold;
+}
+.RandomG .details #tow  i{
+  color: rgb(52, 45, 45);
+  font-size: 15px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.RandomG .details #tow #tt{
+  margin-left: 30px;
+}
+.RandomG #sec{
+  margin-left: 100px;
+  background-attachment:fixed;
+  position: sticky;
+  top: 0px;
+  background-color: #fff;
+  padding-top: 10px;
+  z-index: 1;
+}
+
+.RandomG #sec a{
+  color: #000;
+  font-size: 18px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.RandomG #sec a:hover{
+  color: blue;
+}
+.RandomG #sec button{
+  width: 150px;
+  background-color:rgb(225, 66, 66);
+  margin-left: 200px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 8px;
+  height: 40px;
+}
+.RandomG .infoss{
+  width: 40%;
+  margin-left: 100px;
+  background-color:rgb(236, 229, 229);
+  padding: 10px;
+}
+.RandomG .mainnn{
+  display: flex;
+}
+.RandomG .infoss #one{
+  width: 90%;
+}
+.RandomG .infoss #one a{
+  color: blue;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+.RandomG .infoss #tow {
+  width: 95%;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+.RandomG .infoss #tow section{
+  column-count: 2;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.RandomG .infoss #tow section #img1{
+  width: 200px;
+  height: 100px;
+  float: right;
+  border-radius: 12px;
+}
+.RandomG .infoss #tow section #img2{
+  width: 40px;
+  height: 40px;
+  left: 0;
+  border-radius: 12px;
+  padding-top: 20px;
+}
+.RandomG .infoss #tow section i{
+  padding-bottom: -10px;
+}
+.RandomG .infoss #tow button{
+  width: 50px;
+  height: 20px;
+  background-color:skyblue;
+  float: right;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 8px;
+}
+.RandomG .infoss #tow button:hover{
+  background-color: greenyellow;
+  border:blueviolet ;
+}
+.RandomG .infoss .past{
+  font-style: oblique;
+  color: rgb(197, 186, 186);
+}
+
+
+.RandomG .mainnn .people{
+  width: 40%;
+  margin-left: 100px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 80px;
+}
+.RandomG .people #org{
+  display: flex;
+
+}
+.RandomG .people #org img{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+.RandomG .people #org p{
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.RandomG .people #mem{
+  column-count: 3;
+  position: sticky;
+  top: 60px;
+  
+ 
+}
+.RandomG .people #mem img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin:40px;
+  cursor: pointer;
+}
+.RandomG #seeall{
+  float: right;
+  color: blue;
+}
+/*RandomG*/
+
+.Profile #main-nav{
+  display:inline-flex;
+  padding-top: 10px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+}
+
+
+.Profile #main-nav div{
+  padding-left: 65%;
+  padding-top:  10px;
+  
+}
+.Profile #main-nav div a{
+  height: 40px;
+  text-align: center;
+  color: blue;
+  cursor: pointer;
+}
+
+.Profile #main-nav div button{
+  background-color: #fff;
+  color: #333;
+  font-size: 10px;
+  margin-left: 30px;
+  border: none;
+  cursor: pointer;
+}
+.Profile #main-nav h1{
+  color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 5px;
+  padding-left:20px ;
+
+}
+
+.Profile nav h2{
+  color:gray;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 5px;
+
+}
+
+.Profile .MAINN #sec{
+  margin-left: 300px;
+  background-attachment:fixed;
+  position: sticky;
+  top: 0px;
+  background-color: #fff;
+  padding-top: 10px;
+  z-index: 1;
+  border: solid silver;
+  border-top: none;
+  width: 50%;
+}
+.Profile .MAINN h1{
+  background-color: tomato;
+  text-align: center;
+  height: 100px;
+  width: 50%;
+  margin-left: 300px;
+  padding-top: 60px;
+  border: solid 2px silver;
+  border-bottom: none;
+}
+
+.Profile #sec a{
+  color: #000;
+  font-size: 18px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.Profile #sec a:hover{
+  background-color:tomato;
+  border-radius: 10px;
+}
+.Profile #sec button:hover{
+  background-color: tomato;
+}
+.Profile #sec button{
+  width: 100px;
+  margin-left: 50px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  border-radius: 8px;
+  height: 40px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+}
+.Profile .BBB .one #one{
+  display: block;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 200px;
+  height: 300px;
+  margin-left: 22%;
+  background-color: wheat;
+}
+.Profile .BBB .one #one h1{
+  padding: 10px;
+  font-size: 15px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Profile .BBB .one #one h2{
+  padding: 10px;
+  font-size: 15px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Profile .BBB .one #one button{
+  padding: 8px;
+  width: 140px;
+  height: 30px;
+  margin-left:30px ;
+}
+.Profile .BBB .one #one p{
+ margin-left: 90%;
+ margin-top: -14px;
+}
+.Profile .BBB .one #one img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+  margin-top: 20p;
+}
+.Profile .BBB .one #one #hg{
+  margin-left: 10px;
+  font-size: 12px;
+  color: blue;
+  cursor: pointer;
+}
+.Profile .BBB .one #tow {
+  display: block;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 200px;
+  height: 340px;
+  margin-left: 22%;
+  background-color: wheat;
+
+}
+.Profile .BBB .one #tow img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.Profile .BBB .tow img{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.Profile .BBB .tow #third a{
+  margin-left: 40px;
+  color: blue;
+  font-size: 10px;
+}
