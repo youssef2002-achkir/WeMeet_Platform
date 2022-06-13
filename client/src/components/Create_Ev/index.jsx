@@ -4,11 +4,11 @@ import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import styles from "./style.module.css";
 
-const NewGroup = () => {
+const NewEvent = () => {
 	const [data, setData] = useState({
 		name: "",
-		description: "",
-		admin: "",
+		date: "",
+		place: "",
 	});
 	const [error, setError] = useState("");
 	const navigate = useNavigate();
@@ -19,9 +19,9 @@ const NewGroup = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "http://localhost:8080/api/groups";
+			const url = "http://localhost:8080/api/events";
 			const { data: res } = await axios.post(url, data);
-			navigate("/groupcreate");
+			navigate("/event_created");
 			console.log(res.message);
 		} catch (error) {
 			if (
@@ -38,11 +38,11 @@ const NewGroup = () => {
 			<div className={styles.signup_form_container}>
 				<div className={styles.right}>
 					<form className={styles.form_container} onSubmit={handleSubmit}>
-						<h1>Create Group Page</h1>
+						<h1>Add New Event</h1>
 						<input
 							type="text"
-							placeholder="name"
-							name="name"
+							placeholder="title"
+							name="title"
 							onChange={handleChange}
 							value={data.name}
 							required
@@ -50,26 +50,26 @@ const NewGroup = () => {
 						/>
 						<input
 							type="text"
-							placeholder="description"
-							name="description"
+							placeholder="date"
+							name="date"
 							onChange={handleChange}
-							value={data.description}
+							value={data.date}
 							required
 							className={styles.input}
 						/>
 						<input
-							type="email"
-							placeholder="admin"
-							name="admin"
+							type="text"
+							placeholder="place"
+							name="place"
 							onChange={handleChange}
-							value={data.admin}
+							value={data.place}
 							required
 							className={styles.input}
 						/>
 						
 						{error && <div className={styles.error_msg}>{error}</div>}
 						<button type="submit" className={styles.green_btn}>
-							Create
+							Add Event
 						</button>
 					</form>
 				</div>
@@ -78,4 +78,4 @@ const NewGroup = () => {
 	);
 };
 
-export default NewGroup;
+export default NewEvent;

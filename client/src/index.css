@@ -519,6 +519,16 @@
 .Events .header{
   background-color: #fff;
 }
+
+.Event #plus{
+  width: 60px;
+  height: 50px;
+  background-color: rgb(92, 204, 92);
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
 /*Event*/
 
 /*Community*/

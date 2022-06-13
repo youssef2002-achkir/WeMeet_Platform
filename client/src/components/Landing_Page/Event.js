@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { Link } from "react-router-dom";
 import Events from "../Events/Events_body";
 import Footer from '../Footer/footer'
 
@@ -17,8 +18,10 @@ class Event extends Component{
                 </h1>
                 <div className="ButtContainer">
             <input type="text" placeholder="Search.."/>
+            <Link to='/newevent'><button id="plus">Add</button></Link>
               <button id="SignIn">SIGN IN</button>
               <button id="SignUp">SIGN UP</button>
+              
             </div>
                 </div>
             

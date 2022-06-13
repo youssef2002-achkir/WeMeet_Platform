@@ -9,6 +9,7 @@ import NewGroup from './components/Create_Gr/newgr';
 import Event from './components/Landing_Page/Event';
 import RandomG from './components/exploreGroup/random_G';
 import CinemaE from './components/exploreEvent/cinema_E';
+import NewEvent from './components/Create_Ev';
 
 function App() {
 	const user = localStorage.getItem("token");
@@ -25,6 +26,7 @@ function App() {
 			<Route path='/Events_b' element={<Event/>}/>
 			<Route path='/randomG' element={<RandomG/>}/>
 			<Route path='/Cinema_E' element={<CinemaE/>}/>
+			<Route path='/newevent' element={<NewEvent/>}/>
 		</Routes>
 	);
 }
